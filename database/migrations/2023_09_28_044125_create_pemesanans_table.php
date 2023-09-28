@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('upload_file_tugas')->nullable();
             $table->enum('pilihan_game',['mobile legend','pubg','free fire'])->nullable();
             $table->string('username')->nullable();
-            $table->string('email')->nullable();
+            $table->string('email_game')->nullable();
             $table->string('password')->nullable();
             $table->string('deskripsi')->nullable();
             $table->timestamps();
